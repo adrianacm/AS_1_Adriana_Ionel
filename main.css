@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    margin: 0;
+    line-height: 100%;
+}
+nav {
+    text-align: left;
+    padding: 1em;
+
+}
+.wrapper {
+    flex: 1 0 auto;
+}
+.main {
+    padding: 1em;
+    background: beige;
+}
+.aside {
+    padding: 1em;
+    background: blanchedalmond;
+}
+
+
+
+
+
+
+/*-----------------*/ 
+@media (min-width: 40em){
+    nav {
+display: block;
+    }
+    .wrapper {
+flex-direction: row;
+    }
+    .main{
+flex: 1 1 auto;
+    }
+    .aside{
+        width: 20%;
+    }
+}
