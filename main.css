@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,12 +10,28 @@ body {
     margin: 0;
     line-height: 100%;
 }
-nav {
-    text-align: left;
+h1{
     padding: 1em;
-
+    background: aquamarine;
+}
+.nav {
+ 
+   background: aquamarine;
+}
+ul{
+    display: flex;
+    overflow: auto;
+    list-style-type: none;
+    flex-direction: row;
+    float: right;
+}
+li{
+    height: 20px;
+    padding: 0 20px;
 }
 .wrapper {
+    display: flex;
+    flex-direction: column;
     flex: 1 0 auto;
 }
 .main {
@@ -20,6 +41,7 @@ nav {
 .aside {
     padding: 1em;
     background: blanchedalmond;
+    text-align: center;
 }
 
 
@@ -30,7 +52,7 @@ nav {
 /*-----------------*/ 
 @media (min-width: 40em){
     nav {
-display: block;
+
     }
     .wrapper {
 flex-direction: row;
@@ -40,5 +62,6 @@ flex: 1 1 auto;
     }
     .aside{
         width: 20%;
+        background: cornsilk;
     }
 }
