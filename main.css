@@ -22,7 +22,7 @@ h1{
 .nav {
 height: 2em;
    background: rgba(177, 226, 230, 0.808);
-   font-family: 'Playfair Display SC', serif;
+   
 }
 ul{
     display: flex;
@@ -34,6 +34,7 @@ ul{
 li{
     height: 20px;
     padding: 0 20px;
+    font-family: 'Playfair Display SC', serif;
 }
 .wrapper {
     display: flex;
