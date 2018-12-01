@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Unlock');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
 
 * {
     margin: 0;
@@ -18,23 +18,27 @@ h1{
     background: cadetblue;
     font-size: 60px;
     font-family: 'Unlock', cursive;
+    
 }
 .nav {
-height: 2em;
    background: rgba(177, 226, 230, 0.808);
-   
+ 
 }
 ul{
     display: flex;
     overflow: auto;
     list-style-type: none;
-    flex-direction: row;
     float: right;
+    
 }
-li{
-    height: 20px;
-    padding: 0 20px;
-    font-family: 'Playfair Display SC', serif;
+li
+{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    height: 18px;
+    padding: 10px 10px 4px;
+    
 }
 .wrapper {
     display: flex;
