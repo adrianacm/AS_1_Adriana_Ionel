@@ -11,11 +11,12 @@ body {
     line-height: 100%;
 }
 h1{
-    padding: 1em;
+    padding: 0.8em 0.3em 0.4em;
     background: aquamarine;
+    font-size: 60px;
 }
 .nav {
- 
+height: 2em;
    background: aquamarine;
 }
 ul{
@@ -31,7 +32,7 @@ li{
 }
 .wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex: 1 0 auto;
 }
 .main {
@@ -39,41 +40,53 @@ li{
     background: beige;
 }
 .aside {
-    padding: 1em;
-    background: blanchedalmond;
+    padding: 2em;
+    background: rgb(219, 197, 163);
     text-align: center;
+}
+.column1h2 {
+    padding: 0  0 1em;
+    text-align: center;
+    font-size: 2.5em;
+}
+.column2h2 {
+    padding: 0  0 1em;
+    text-align: center;
+    font-size: 2.5em;
+}
+.vrimg {
+    float: left;
+    padding-right: 1em;
 }
 
 
 
 
 
-
 /*-----------------*/ 
-@media (min-width: 40em){
-    nav {
-height: 2em;
-    }
-    .wrapper {
-flex-direction: row;
-    }
+@media (min-width: 1200px){
+    
+    
     .main{
         width: 75%;
         display: flex;
         flex: 1 1 auto;
-        flex-direction: row;
         justify-content: center;
         justify-content: space-around; 
-        clear: both; 
+        
     }
     .aside{
         width: 25%;
-        background: cornsilk;
+        background: lightcoral;
     }
     .column1 {
         flex: 50%;
+        padding: 2em;
     }
     .column2{
         flex: 50%;
+        padding: 2em;
+        
     }
+    
 }
