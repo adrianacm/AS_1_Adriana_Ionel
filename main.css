@@ -14,14 +14,17 @@ body {
     line-height: 100%;
 }
 h1{
-    padding: 0.8em 0.3em 0.4em;
-    background: cadetblue;
+    padding-bottom: 30px;
+    background:  rgb(231, 222, 167);
     font-size: 60px;
     font-family: 'Unlock', cursive;
+    display: inline;
+    float: left;
     
 }
 .nav {
-   background: rgba(177, 226, 230, 0.808);
+   background: rgb(231, 222, 167);
+   display: inline;
  
 }
 ul{
@@ -30,6 +33,7 @@ ul{
     list-style-type: none;
     float: right;
     
+    
 }
 li
 {
@@ -37,8 +41,18 @@ li
     font-size: 18px;
     text-transform: uppercase;
     height: 18px;
-    padding: 10px 10px 4px;
-    
+    padding: 10px 10px 4px; 
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+li a:hover {
+color: #666;
+}
+li.active a{
+    font-weight: bold;
+    color: black;
 }
 .wrapper {
     display: flex;
@@ -87,7 +101,7 @@ li
     }
     .aside{
         width: 25%;
-        background: rgb(165, 105, 105);
+        background: rgb(245, 240, 179);
     }
     .column1 {
         flex: 50%;
