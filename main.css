@@ -65,14 +65,26 @@ li.active a{
     
 }
 
+.adri{
+    max-width: 152px;
+    max-height: 220px;
+    width: auto;
+    height: auto;
+    float: left;
+    padding-right: 10px;
+}
+
+.about{
+    font-size: 24px;
+}
 
 .aboutus{
 padding-left: 55px;
 padding-right: 55px;
 background-color: whitesmoke;
 text-align:justify;  
-    text-justify:auto;
-    
+text-justify:auto;
+padding-top: 20px;
 }
 
 
@@ -84,7 +96,7 @@ text-align:justify;
 .subhead{
     padding-top: 20px;
     border-bottom: 1px solid rgb(177, 177, 177);
-    
+    background-color: whitesmoke;
 }
 h3 {
     display: flex;
