@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Unlock');
 @import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
 
 * {
     margin: 0;
@@ -13,6 +13,7 @@ body {
     min-height: auto;
     margin: 0;
     line-height: 100%;
+    
     
 }
 h1{
@@ -134,7 +135,7 @@ h3 {
  
 p {
     font-size: 18px;
-    font-family: "Libre Baskerville", serif;
+    font-family: georgia, times, serif;
     line-height: 1.2;
 }
 .nbar{
