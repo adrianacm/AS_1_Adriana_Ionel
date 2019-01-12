@@ -14,17 +14,20 @@ body {
     line-height: 100%;
 }
 h1{
-    padding-bottom: 30px;
-    background:  rgb(231, 222, 167);
+    padding-bottom: 0px;
+    padding-left: 15px;
     font-size: 60px;
     font-family: 'Unlock', cursive;
     display: inline;
     float: left;
+    color: white;
     
 }
 .nav {
-   background: rgb(231, 222, 167);
+   
    display: inline;
+   padding: 3em 0em 2.5em 0em;
+   background: black;
  
 }
 ul{
@@ -32,6 +35,7 @@ ul{
     overflow: auto;
     list-style-type: none;
     float: right;
+    
     
     
 }
@@ -52,21 +56,43 @@ color: #666;
 }
 li.active a{
     font-weight: bold;
-    color: black;
+    color: #666;  
+    
 }
-.wrapper {
-    display: flex;
-    flex-direction: row;
-    flex: 1 0 auto;
+
+
+.aboutus{
+  
+    background: whitesmoke;
+  
+    
 }
-.main {
+.news { 
     padding: 1em;
-    background: beige;
+    background: whitesmoke;
+}
+
+.subhead{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
 }
 .aside {
+  
     padding: 2em;
-    background: rgb(219, 197, 163);
+    background: rgb(248, 248, 240);
     text-align: center;
+    border-left: black;
+}
+
+.footer {
+    padding: 30px;
+    background: black;
+    
 }
 .column1h2 {
     padding: 0  0 1em;
@@ -78,10 +104,8 @@ li.active a{
     text-align: center;
     font-size: 2.5em;
 }
-.vrimg {
-    float: left;
-    padding-right: 1em;
-}
+
+
 
 
 
@@ -89,19 +113,28 @@ li.active a{
 
 /*-----------------*/ 
 @media (min-width: 1200px){
+     
+    .wrapper{
+        display: flex;
+        flex: 1 0 auto;
+        width: 100%;
+        flex-direction: column;
+    }
     
-    
-    .main{
-        width: 75%;
+    .news{
+        
         display: flex;
         flex: 1 1 auto;
         justify-content: center;
         justify-content: space-around; 
         
     }
+   
+    
     .aside{
         width: 25%;
-        background: rgb(245, 240, 179);
+        background: rgb(248, 248, 240);
+        border-left: black;
     }
     .column1 {
         flex: 50%;
