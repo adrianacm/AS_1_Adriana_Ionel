@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Unlock');
 @import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 * {
     margin: 0;
@@ -12,15 +13,17 @@ body {
     min-height: auto;
     margin: 0;
     line-height: 100%;
+    
 }
 h1{
     padding-bottom: 0px;
-    padding-left: 15px;
+    padding-left: 45px;
     font-size: 60px;
     font-family: 'Unlock', cursive;
     display: inline;
     float: left;
     color: white;
+
     
 }
 .nav {
@@ -35,6 +38,7 @@ ul{
     overflow: auto;
     list-style-type: none;
     float: right;
+    padding-right: 30px;
     
     
     
@@ -62,24 +66,27 @@ li.active a{
 
 
 .aboutus{
-  
-    background: whitesmoke;
-  
+padding-left: 30px;
+padding-right: 30px;
+background-color: whitesmoke;
     
 }
+
+
 .news { 
-    padding: 1em;
+    padding: 3em;
     background: whitesmoke;
 }
 
 .subhead{
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    
 }
 h3 {
     display: flex;
     justify-content: center;
     font-size: 35px;
+    padding: 15px;
 }
 .aside {
   
@@ -98,13 +105,28 @@ h3 {
     padding: 0  0 1em;
     text-align: center;
     font-size: 2.5em;
+    
 }
 .column2h2 {
     padding: 0  0 1em;
     text-align: center;
     font-size: 2.5em;
 }
-
+.column1 {
+    border-right: solid 1px rgb(177, 177, 177);
+}
+.vrimg {
+    padding-right: 20px;
+    width: 100%;
+    height: auto;
+ 
+}
+ 
+p {
+    font-size: 18px;
+    font-family: "Libre Baskerville", serif;
+    line-height: 1.2;
+}
 
 
 
