@@ -66,15 +66,17 @@ li.active a{
 
 
 .aboutus{
-padding-left: 30px;
-padding-right: 30px;
+padding-left: 55px;
+padding-right: 55px;
 background-color: whitesmoke;
+text-align:justify;  
+    text-justify:auto;
     
 }
 
 
 .news { 
-    padding: 3em;
+    padding: 2em;
     background: whitesmoke;
 }
 
@@ -115,11 +117,18 @@ h3 {
 }
 .column1 {
     border-right: solid 1px rgb(177, 177, 177);
+    text-align:justify;  
+    text-justify:auto;
+}
+.column2 {
+    text-align:justify;  
+    text-justify:auto;
 }
 .vrimg {
-    padding-right: 20px;
+    
     width: 100%;
     height: auto;
+    padding: 20px 20 20px 0px;
  
 }
  
@@ -127,6 +136,10 @@ p {
     font-size: 18px;
     font-family: "Libre Baskerville", serif;
     line-height: 1.2;
+}
+.nbar{
+    padding:30px;
+    font-size:2em;
 }
 
 
@@ -163,6 +176,11 @@ p {
         flex: 1 1 auto;
         justify-content: center;
         justify-content: space-around; 
+        width:75%;
+    }
+    .tmain{
+        display: flex;
+        flex: 1 1 auto;
         width:75%;
     }
     .rmain {
