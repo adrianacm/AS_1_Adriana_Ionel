@@ -79,6 +79,7 @@ background-color: whitesmoke;
 }
 
 .subhead{
+    padding-top: 20px;
     border-bottom: 1px solid rgb(177, 177, 177);
     
 }
@@ -93,11 +94,11 @@ h3 {
     padding: 2em;
     background: rgb(248, 248, 240);
     text-align: center;
-    border-left: black;
+    
 }
 
 .footer {
-    padding: 30px;
+    padding: 20px;
     background: black;
     
 }
@@ -142,6 +143,12 @@ p {
         width: 100%;
         flex-direction: column;
     }
+    .jtgwrapper{
+        display: flex;
+        flex: 1 0 auto;
+        width: 100%;
+        flex-direction: row; 
+    }
     
     .news{
         
@@ -151,12 +158,26 @@ p {
         justify-content: space-around; 
         
     }
+    .main{
+        display: flex;
+        flex: 1 1 auto;
+        justify-content: center;
+        justify-content: space-around; 
+        width:75%;
+    }
+    .rmain {
+        display: flex;
+        flex: 1 1 auto;
+        justify-content: center;
+        justify-content: space-around;  
+        width:100%;
+    }
    
     
     .aside{
         width: 25%;
         background: rgb(248, 248, 240);
-        border-left: black;
+       
     }
     .column1 {
         flex: 50%;
@@ -167,5 +188,26 @@ p {
         padding: 2em;
         
     }
-    
+    .column3{
+        flex: 50%;
+        padding: 2em;
+        
+    }
+    .column4{
+        flex: 50%;
+        padding: 2em;
+        
+    }
+    .column5{
+        flex:33%;
+        padding: 2em;
+    }
+    .column6{
+        flex:33%;
+        padding: 2em;
+    }
+    .column7{
+        flex:33%;
+        padding: 2em;
+    }
 }
