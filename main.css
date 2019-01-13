@@ -14,6 +14,7 @@ body {
     min-height: auto;
     margin: 0;
     line-height: 100%;
+    background: whitesmoke;
     
     
 }
@@ -41,7 +42,7 @@ ul{
     float: right;
     padding-right: 30px;  
     
-}
+} /* creates the navigation list*/
 li
 {
     font-family: 'Sorts Mill Goudy', serif;
@@ -67,6 +68,7 @@ li.active a{
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    
 }
 
 .navt a {
@@ -83,8 +85,8 @@ color: #666;
     width: auto;
     height: auto;
     float: left;
-    padding-right: 20px;
-}
+    padding-right: 20px; 
+} /* sets the maximum size and makes it responsive*/
 
 .about{
     font-size: 22px;
@@ -108,7 +110,7 @@ padding-top: 30px;
 
 .subhead{
     padding-top: 20px;
-    border-bottom: 1px solid rgb(177, 177, 177);
+    border-bottom: 1px solid rgb(177, 177, 177); /* a simple line to make it look more like a newspaper*/
     background-color: whitesmoke;
     font-family: "Sorts Mill Goudy", serif;
 }
@@ -116,7 +118,7 @@ padding-top: 30px;
 h2 {
    padding: 20px 0 20px 0; 
    font-family: "Arbutus Slab", serif;
-   line-height: 1.3;
+   line-height: 1.3; /*adjusts the space between lines*/
    
 }
 
@@ -125,9 +127,8 @@ h3 {
     justify-content: center;
     font-size: 35px;
     padding: 15px;
-    
-    
 }
+
 h4{
     padding: 20px 0 20px 0;
     font-size: 20px;
@@ -143,7 +144,7 @@ h5{
 .aside {
   
     padding: 2em;
-    background: rgb(248, 248, 240);
+    background: whitesmoke;
     text-align: center;
     
 }
@@ -163,7 +164,7 @@ h5{
     
 }
 .column2h2 {
-    padding: 0  0 1em;
+    padding: 1em  0 1em;
     text-align: center;
     font-size: 2.5em;
     line-height: 1em;
@@ -177,7 +178,7 @@ h5{
     height: auto;
     padding: 20px 20 20px 0px;
  
-}
+}  /*this makes the gif to be responsive*/
 
  .lowc{
     width: 100%;
@@ -196,7 +197,8 @@ p {
     line-height: 1.3;
     text-align:justify;  
     text-justify:auto;
-}
+} /*the last two proprieties make the text look nicer and more "in line" (justify) */
+
 .nbar{
     padding: 20px 0 20px 0;
     font-size:2em;
@@ -207,7 +209,7 @@ p {
     max-height: 250px;
     width: auto;
     height: auto;
-}
+} /* this code is for trying to make the video responsive (maximising and minimising along with the width of the page) */
 .question {
     padding: 20px 0 20px 0;
 }
@@ -215,11 +217,14 @@ p {
     margin-bottom: 35px;
 }
 .glossaryimg{
+    width: auto;
+    height: auto;
     padding-bottom: 30px;
 }
 .fsd {
     display: flex;
     float: left;
+    padding-right:15px;
 }
 .bold{
     font-weight: bold;
@@ -259,7 +264,7 @@ iframe{
     }
    
     .tmain{
-        display: flex;
+        display: flex; /*we need to first display the flexbox in order to use its proprieties*/
         flex: 1 1 auto;
         width:75%;
         flex-direction: column;
@@ -268,7 +273,7 @@ iframe{
     .rmain {
         display: flex;
         flex: 1 1 auto;
-        justify-content: center;
+        justify-content: center;  /*aligning items and centering them using these proprieties*/
         justify-content: space-around;  
         width:100%;
     }
@@ -290,7 +295,7 @@ iframe{
     
     .aside{
         width: 25%;
-        background: rgb(248, 248, 240);
+        background: whitesmoke;
        
     }
     .column1 {
@@ -326,10 +331,11 @@ iframe{
         border-right: solid 1px rgb(177, 177, 177);
     }
     .column7{
-        flex:30%;
+        flex:30%; /* the size of the width available to take*/
         padding: 2em;
     }
 }
+/*changed just a few things, almost nothing, when the window is bigger than 1200px*/
 
 
 @media (min-width: 1081px){
@@ -355,7 +361,7 @@ iframe{
     }
     .aside{
         width: 25%;
-        background: rgb(248, 248, 240);
+        background: whitesmoke;
        
     }
 .column3{
@@ -400,9 +406,6 @@ iframe{
     width:100%;
     justify-content: center;
     justify-content: space-around;  
-    
-    
-    
    
 }
 .column5{
@@ -433,6 +436,7 @@ iframe{
 
 @media all and (max-width: 1080px) and (min-width: 606px){
 
+/* changing from row to column because there is not enough space anymore to have more cells on the pages*/
     .nav {
    
         display: flex;
@@ -464,6 +468,105 @@ iframe{
         padding: 20px 0 20px 40px;
 }
 
+.gmain{
+    display: flex;
+    flex: 1 1 auto;
+    width:80%;
+    flex-direction: column;
+    padding: 30px;
+}
+.jmain{
+    display: flex;
+    flex: 1 0 auto;
+    width:90%;
+    flex-direction: column;
+    padding: 10px 0 30px 40px;
+}
 
+.rmain{
+    display: flex;
+    flex: 1 0 auto;
+    width:100%;
+    flex-direction: column;
+}
+.column5{
+    flex:33%;
+    padding: 0 40px 20px 40px;
+    width:auto;
+  
+}
+.column6{
+    flex:33%;
+    padding: 0 40px 20px 40px;
+    width:auto;
+    
+}
+.column7{
+    flex:33%;
+    width:auto;
+    padding: 0 40px 20px 40px;
+}
+.navt {
+    text-align: center;
+     justify-content: center;
+     
+}
+
+}
+/*most of these are repeated but slightly changed*/
+
+@media all and (max-width:605px) and (min-width:458px){
+
+h1{
+    display: inline-block;
+    font-size: 45px;
+}
+ .mnav{
+     padding-top:20px;
+     padding-left: 20px;
+     display: flex;
+     flex-direction: column;
+     float: initial;
+ }
+ .mnav > li{
+     align-self: center;
+ }
+
+.fsd{
+    padding-left:30px;
+    max-width: 380px;
+    max-height: 380px;
+    width:auto;
+    height:auto;
+}
+.glossaryimg{
+    padding-left: 30px;
+    max-width: 380px;
+    max-height: 200px;
+    width:auto;
+    height:auto;
+
+}
+
+.gmain{
+    display: flex;
+    flex: 1 1 auto;
+    width:80%;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.rmain{
+   
+    padding:30px;
+}
+.navul{
+    float:left;
+    padding-bottom:40px;
+}
+
+.jmain{
+    padding:30px;
+}
 
 }
