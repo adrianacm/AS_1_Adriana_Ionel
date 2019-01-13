@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Unlock');
 @import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
 
 
 * {
@@ -66,15 +67,16 @@ li.active a{
 
 .adri{
     max-width: 152px;
-    max-height: 220px;
+    max-height: 200px;
     width: auto;
     height: auto;
     float: left;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .about{
-    font-size: 24px;
+    font-size: 22px;
+    padding-top: 10px;
 }
 
 .aboutus{
@@ -83,7 +85,7 @@ padding-right: 55px;
 background-color: whitesmoke;
 text-align:justify;  
 text-justify:auto;
-padding-top: 20px;
+padding-top: 30px;
 }
 
 
@@ -96,12 +98,20 @@ padding-top: 20px;
     padding-top: 20px;
     border-bottom: 1px solid rgb(177, 177, 177);
     background-color: whitesmoke;
+    font-family: "Sorts Mill Goudy", serif;
 }
 h3 {
     display: flex;
     justify-content: center;
     font-size: 35px;
     padding: 15px;
+    
+    
+}
+h4{
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+    font-family: "Arbutus Slab", serif;
 }
 .aside {
   
@@ -120,12 +130,16 @@ h3 {
     padding: 0  0 1em;
     text-align: center;
     font-size: 2.5em;
+    font-family: "Arbutus Slab", serif;
+    line-height: 1em;
     
 }
 .column2h2 {
     padding: 0  0 1em;
     text-align: center;
     font-size: 2.5em;
+    line-height: 1em;
+    font-family: "Arbutus Slab", serif;
 }
 .column1 {
     border-right: solid 1px rgb(177, 177, 177);
@@ -143,7 +157,18 @@ h3 {
     padding: 20px 20 20px 0px;
  
 }
- 
+
+ .lowc{
+    width: 100%;
+    height: auto;
+    padding: 25px 0 25px 0;
+ }
+.resp{
+    width: 100%;
+    height: auto;
+    padding: 25px 0 25px 0;
+}
+
 p {
     font-size: 18px;
     font-family: georgia, times, serif;
