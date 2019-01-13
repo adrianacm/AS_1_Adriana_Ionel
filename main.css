@@ -65,6 +65,20 @@ li.active a{
     
 }
 
+.navul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.navt a {
+    text-decoration: none;
+    color: black;
+}
+.navt a:hover {
+color: #666;
+}
+
 .adri{
     max-width: 152px;
     max-height: 200px;
@@ -100,6 +114,11 @@ padding-top: 30px;
     background-color: whitesmoke;
     font-family: "Sorts Mill Goudy", serif;
 }
+
+h2 {
+   padding: 20px 0 20px 0; 
+}
+
 h3 {
     display: flex;
     justify-content: center;
@@ -175,7 +194,7 @@ p {
     line-height: 1.2;
 }
 .nbar{
-    padding:30px;
+    padding: 20px 0 20px 0;
     font-size:2em;
 }
 iframe{
@@ -221,6 +240,8 @@ iframe{
         display: flex;
         flex: 1 1 auto;
         width:75%;
+        flex-direction: column;
+        padding-left: 40px;
     }
     .rmain {
         display: flex;
