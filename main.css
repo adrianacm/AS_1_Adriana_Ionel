@@ -516,7 +516,7 @@ iframe{
 }
 /*most of these are repeated but slightly changed*/
 
-@media all and (max-width:605px) and (min-width:400px){
+@media all and (max-width:605px) and (min-width:300px){
 
 h1{
     display: inline-block;
